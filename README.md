@@ -76,10 +76,6 @@ To use this project, follow these steps:
 
 5.  Your selected movies will be stored in local storage.
 
-Contributing
-------------
-
-Contributions are always welcome! If you have any suggestions or improvements, please submit a pull request.
 
 License
 -------
