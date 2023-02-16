@@ -62,7 +62,7 @@ const Search = () => {
       }
 
     const fetchData = async (value) => {
-        let api = await axios.get(`https://api.themoviedb.org/3/search/movie?api_key=d7204b16fafe2c96fd50a94e899c9a6e&language=en-US&query=${value}&page=${currPage}&include_adult=false`)
+        let api = await axios.get(`https://api.themoviedb.org/3/search/movie?api_key=${process.env.REACT_APP_API_KEY}&language=en-US&query=${value}&page=${currPage}&include_adult=false`)
         setMovies([...api.data.results]);
         // console.log([...api.data.results])
     }

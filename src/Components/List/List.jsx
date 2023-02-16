@@ -12,7 +12,7 @@ const List = () => {
 
   const changeMovies = async () => {
     let api = await axios.get(
-      `https://api.themoviedb.org/3/movie/popular?api_key=d7204b16fafe2c96fd50a94e899c9a6e&language=en-US&page=${currPage}`
+      `https://api.themoviedb.org/3/movie/popular?api_key=${process.env.REACT_APP_API_KEY}&language=en-US&page=${currPage}`
     );
     setMovies([...api.data.results]);
     console.log(movies);
