@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+Movie App
+=========
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a movie app that fetches movies from the TMDB API and displays them to the user. The app includes a favorites feature, where the user can hover over a movie to add it to their favorites, and hover again to remove it from favorites. It also includes a search feature that allows the user to type and search for a movie. The favorites feature uses local storage to store the user's selected movies. The technologies used in this project are React.js, CSS, HTML, and JavaScript.
 
-## Available Scripts
+Table of Contents
+-----------------
 
-In the project directory, you can run:
+- Demo
+- Features
+- Technologies
+- Installation
+- Usage
+- License
 
-### `npm start`
+Demo
+----
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Here's a [demo](https://moviesure.netlify.app/) of the app in action.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Features
+--------
 
-### `npm test`
+-   Fetches movies from the TMDB API and displays them to the user.
+-   Favorites feature allows the user to hover over a movie to add it to their favorites, and hover again to remove it from favorites.
+-   Search feature allows the user to type and search for a movie.
+-   Uses local storage to store the user's selected movies.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Technologies
+------------
 
-### `npm run build`
+This project was built using:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-   React.js
+-   CSS
+-   HTML
+-   JavaScript
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Installation
+------------
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To install this project, follow these steps:
 
-### `npm run eject`
+1.  Clone the repository to your local machine:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    bashCopy code
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    `git clone https://github.com/akashpal9007/oneAssureAssignment.git`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2.  Install the dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    Copy code
 
-## Learn More
+    `npm install`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Usage
+-----
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To use this project, follow these steps:
 
-### Code Splitting
+1.  Run the app:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    sqlCopy code
 
-### Analyzing the Bundle Size
+    `npm start`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2.  Open the app in your browser:
 
-### Making a Progressive Web App
+    javascriptCopy code
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    `http://localhost:3000`
 
-### Advanced Configuration
+3.  Use the search bar to search for a movie.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+4.  Hover over a movie to add it to your favorites, and hover again to remove it from favorites.
 
-### Deployment
+5.  Your selected movies will be stored in local storage.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Contributing
+------------
 
-### `npm run build` fails to minify
+Contributions are always welcome! If you have any suggestions or improvements, please submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+License
+-------
+
+This project is licensed under the [MIT License](https://chat.openai.com/chat/LICENSE).
