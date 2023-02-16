@@ -1,0 +1,29 @@
+.fav{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+th{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+td{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.delete{
+    background: #dc3545;
+    color: white;
+    border: navajowhite;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 0.19rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .genre,.popularity,.rating{
+        display: none;
+    }
+}

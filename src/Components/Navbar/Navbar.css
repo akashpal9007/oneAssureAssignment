@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-r{
+    display: flex;
+}
+.navbar-r>h2{
+    padding-left: 1.5rem
+}
+h1{
+    color: blue;
+}
+h2{
+    margin-left: 1rem;
+    color: blue;
+}
+h2:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px){
+    h1{
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size: 1.1rem;
+        margin-left: 0.5rem;
+    }
+}
